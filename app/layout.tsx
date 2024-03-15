@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} overflow-x-hidden relative bg-background_light scroll-smooth`}
+        className={`${poppins.className} overflow-x-hidden h-screen relative bg-background_light scroll-smooth`}
       >
         <Header />
         {children}

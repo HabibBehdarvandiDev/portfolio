@@ -6,7 +6,7 @@ import Projects from "./components/sections/Projects";
 
 export default function Home() {
   return (
-    <main className="w-full flex flex-col justify-start align-middle items-center overflow-x-hidden scroll-smooth">
+    <main className="w-full h-screen flex flex-col justify-start align-middle items-center overflow-x-hidden overflow-y-scroll scroll-smooth">
       <Intro />
       <About />
       <Projects />
