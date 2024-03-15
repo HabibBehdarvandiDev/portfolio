@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import BackToTopButton from "./components/BackToTopButton";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
