@@ -4,7 +4,7 @@ import { FiGithub } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <footer className="border-t border-blue-300 border-opacity-25 p-6 text-center relative">
+    <footer className="border-t border-blue-300 border-opacity-25 p-6 text-center relative ">
       <p className="text-headline_light">
         Copyright © 2024. All rights are reserved
       </p>

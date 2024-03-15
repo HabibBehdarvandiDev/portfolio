@@ -33,7 +33,7 @@ const Header = () => {
           About
         </Link>
         <Link
-          href={"/"}
+          href={"#projects"}
           className="text-headline_light font-semibold hover:text-zinc-700 cursor-pointer "
         >
           Projects
@@ -71,7 +71,7 @@ const Header = () => {
             About
           </Link>
           <Link
-            href="/"
+            href="#projects"
             className="text-headline_light font-semibold hover:text-zinc-700 cursor-pointer block mb-4"
           >
             Projects
