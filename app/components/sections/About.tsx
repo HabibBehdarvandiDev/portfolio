@@ -1,6 +1,9 @@
 const About = () => {
   return (
-    <section id="about" className="my-12 flex p-4 space-x-4 md:max-w-screen-md">
+    <section
+      id="about"
+      className="my-12 flex p-8 space-x-4 md:max-w-screen-md  "
+    >
       <div className="flex flex-col space-y-4">
         <span className="uppercase text-md text-primary_light font-bold">
           about me
