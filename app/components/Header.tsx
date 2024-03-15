@@ -47,7 +47,7 @@ const Header = () => {
       </nav>
 
       <nav
-        className={`absolute top-0 left-0 w-screen h-screen bg-white transition-transform duration-500 flex flex-col items-center justify-center shadow-sm md:hidden ${
+        className={`absolute top-0 left-0 w-screen h-screen bg-white transition-transform duration-500 flex flex-col items-center justify-center shadow-sm md:hidden z-10 ${
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >

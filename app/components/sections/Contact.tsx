@@ -18,21 +18,21 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="my-20 flex space-x-4 md:max-w-screen-md">
+    <section id="contact" className="my-20 flex flex-col space-x-4">
       <div className="flex flex-col space-y-4">
-        <span className="uppercase text-md text-primary_light font-bold">
+        <h4 className="uppercase text-md text-primary_light font-bold">
           Contact Me
-        </span>
+        </h4>
         <h3 className="text-headline_light font-bold text-2xl">
           Don&rsquo;t be shy! Hit me up! 👇
         </h3>
 
-        <div className="flex space-x-6 py-8">
+        <div className="flex flex-col space-y-6 py-8 justify-center align-middle items-start md:flex-row md:space-x-6 md:items-center">
           <Link
             className="flex space-x-4 justify-center align-middle items-center cursor-pointer"
             href={"tel:+989306688810"}
           >
-            <span className="w-12 h-12 bg-white p-4 flex justify-center align-middle items-center rounded-full shadow-md shadow-blue-200 text-primary_light">
+            <span className=" p-4 flex justify-center align-middle items-center rounded-full text-primary_light">
               <FaPhoneAlt className="w-6 h-6 " />
             </span>
             <div className="flex flex-col space-y-3">
@@ -44,7 +44,7 @@ const Contact = () => {
             className="flex space-x-4 justify-center align-middle items-center cursor-pointer"
             href={"mailto:habibbehdarvandi@skiff.com"}
           >
-            <span className="w-12 h-12 bg-white p-4 flex justify-center align-middle items-center rounded-full shadow-md shadow-blue-200 text-primary_light">
+            <span className=" p-4 flex justify-center align-middle items-center rounded-full text-primary_light">
               <IoMdMail className="w-6 h-6 " />
             </span>
             <div className="flex flex-col space-y-3">
@@ -56,7 +56,7 @@ const Contact = () => {
             href={"https://t.me/habibetoon"}
             className="flex space-x-4 justify-center align-middle items-center cursor-pointer"
           >
-            <span className="w-12 h-12 bg-white p-4 flex justify-center align-middle items-center rounded-full shadow-md shadow-blue-200 text-primary_light">
+            <span className=" p-4 flex justify-center align-middle items-center rounded-full text-primary_light">
               <FaTelegramPlane className="w-6 h-6 " />
             </span>
             <div className="flex flex-col space-y-3">

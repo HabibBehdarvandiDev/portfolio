@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section id="about" className="my-12 flex space-x-4 md:max-w-screen-md">
+    <section id="about" className="my-12 flex p-4 space-x-4 md:max-w-screen-md">
       <div className="flex flex-col space-y-4">
         <span className="uppercase text-md text-primary_light font-bold">
           about me
@@ -8,7 +8,7 @@ const About = () => {
         <h3 className="text-headline_light font-bold text-2xl">
           A passionate Full-Stack Developer 🔥
         </h3>
-        <p className="text-justify text-paragraph_light">
+        <p className="text-balance text-paragraph_light">
           Greetings! I&rsquo;m Habib Behdarvandi, a seasoned specialist in
           JavaScript and TypeScript. My passion lies in crafting digital
           solutions that transcend boundaries. <br /> Currently, I&rsquo;m on

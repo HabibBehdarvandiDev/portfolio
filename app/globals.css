@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @keyframes floatAnimation {
   0% {
     transform: translateY(0);
@@ -16,6 +17,7 @@
 
 .float {
   animation: floatAnimation 3s ease-in-out infinite;
+  z-index: -999;
 }
 
 .separator {
@@ -24,7 +26,6 @@
   background-color: #d2d2d2;
   opacity: 80%;
 }
-
 
 .text-edge {
   animation: moveAlongCircle 4s linear infinite;
@@ -37,4 +38,41 @@
   100% {
     transform: translate(-50%, -50%) translateX(120px) rotate(360deg);
   }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.notification {
+  animation: bounce 0.5s infinite;
+  z-index: -999;
+}
+
+@keyframes wave_hand {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.wave_hand {
+  animation: wave_hand 1s ease infinite;
+  z-index: -999;
 }

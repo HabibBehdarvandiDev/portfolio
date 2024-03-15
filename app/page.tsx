@@ -4,7 +4,7 @@ import Intro from "./components/sections/Intro";
 
 export default function Home() {
   return (
-    <main className=" w-full flex flex-col justify-start align-middle items-center">
+    <main className="w-full flex flex-col justify-start align-middle items-center overflow-x-hidden">
       <Intro />
       <About />
       <Contact />
