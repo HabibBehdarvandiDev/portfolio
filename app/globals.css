@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @keyframes floatAnimation {
   0% {
     transform: translateY(0);
@@ -75,4 +74,14 @@
 .wave_hand {
   animation: wave_hand 1s ease infinite;
   z-index: -999;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Optional: Add any custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent; /* Optional: Set background to match the container */
 }

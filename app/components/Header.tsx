@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white sticky shadow-md shadow-slate-200 py-6 px-12 flex items-center align-middle justify-between transition-colors duration-300">
+    <header className="bg-white sticky shadow-md shadow-slate-200 py-6 px-12 flex items-center align-middle justify-between transition-colors duration-300 w-full">
       <Link href={"/"} className="logo">
         <h1 className="font-bold text-headline_light text-lg hover:text-zinc-600 ">
           Habib.dev
