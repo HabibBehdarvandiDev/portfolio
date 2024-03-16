@@ -14,8 +14,6 @@ const config: Config = {
         paragraph_light: "#555555",
         paragraph_dark: "#6E6E6E",
         background_light: "#F9F9F9",
-        background_gray_light: "#F9F9F9",
-        background_gray_dark: "#FFFFFF",
         background_dark: "#2D2E32",
         primary_light: "#007ACC",
       },
